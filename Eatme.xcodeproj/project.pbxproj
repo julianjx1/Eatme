@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		941401F62861DF2800747C50 /* Gilroy-UltraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401D42861DF2800747C50 /* Gilroy-UltraLightItalic.ttf */; };
+		941401F72861DF2800747C50 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401D52861DF2800747C50 /* Gilroy-Medium.ttf */; };
+		941401F82861DF2800747C50 /* Gilroy-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401D62861DF2800747C50 /* Gilroy-LightItalic.ttf */; };
+		941401F92861DF2800747C50 /* Gilroy-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401D72861DF2800747C50 /* Gilroy-ThinItalic.ttf */; };
+		941401FA2861DF2800747C50 /* Gilroy-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401D82861DF2800747C50 /* Gilroy-HeavyItalic.ttf */; };
+		941401FB2861DF2800747C50 /* Gilroy-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401D92861DF2800747C50 /* Gilroy-BoldItalic.ttf */; };
+		941401FC2861DF2800747C50 /* Gilroy-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401DA2861DF2800747C50 /* Gilroy-SemiBoldItalic.ttf */; };
+		941401FD2861DF2800747C50 /* Gilroy-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401DB2861DF2800747C50 /* Gilroy-RegularItalic.ttf */; };
+		941401FE2861DF2800747C50 /* Gilroy-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401DC2861DF2800747C50 /* Gilroy-BlackItalic.ttf */; };
+		941401FF2861DF2800747C50 /* 210006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 941401DD2861DF2800747C50 /* 210006.jpg */; };
+		941402002861DF2800747C50 /* 210004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 941401DE2861DF2800747C50 /* 210004.jpg */; };
+		941402012861DF2800747C50 /* 210001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 941401DF2861DF2800747C50 /* 210001.jpg */; };
+		941402022861DF2800747C50 /* 210000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 941401E02861DF2800747C50 /* 210000.jpg */; };
+		941402032861DF2800747C50 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401E12861DF2800747C50 /* Gilroy-Regular.ttf */; };
+		941402042861DF2800747C50 /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401E22861DF2800747C50 /* Gilroy-UltraLight.ttf */; };
+		941402052861DF2800747C50 /* 210003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 941401E32861DF2800747C50 /* 210003.jpg */; };
+		941402062861DF2800747C50 /* Gilroy-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401E42861DF2800747C50 /* Gilroy-Black.ttf */; };
+		941402072861DF2800747C50 /* Gilroy-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401E52861DF2800747C50 /* Gilroy-ExtraBold.ttf */; };
+		941402082861DF2800747C50 /* Gilroy-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401E62861DF2800747C50 /* Gilroy-MediumItalic.ttf */; };
+		941402092861DF2800747C50 /* 210019.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 941401E72861DF2800747C50 /* 210019.jpg */; };
+		9414020A2861DF2800747C50 /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401E82861DF2800747C50 /* Gilroy-Light.ttf */; };
+		9414020B2861DF2800747C50 /* Gilroy-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401E92861DF2800747C50 /* Gilroy-Thin.ttf */; };
+		9414020C2861DF2800747C50 /* 210018.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 941401EA2861DF2800747C50 /* 210018.jpg */; };
+		9414020D2861DF2800747C50 /* Gilroy-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401EB2861DF2800747C50 /* Gilroy-ExtraBoldItalic.ttf */; };
+		9414020E2861DF2800747C50 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401EC2861DF2800747C50 /* Gilroy-SemiBold.ttf */; };
+		9414020F2861DF2800747C50 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401ED2861DF2800747C50 /* Gilroy-Bold.ttf */; };
+		941402102861DF2800747C50 /* 210020.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 941401EE2861DF2800747C50 /* 210020.jpg */; };
+		941402112861DF2800747C50 /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 941401EF2861DF2800747C50 /* cover.jpg */; };
+		941402122861DF2800747C50 /* More Free Fonts on fontshmonts.com.url in Resources */ = {isa = PBXBuildFile; fileRef = 941401F02861DF2800747C50 /* More Free Fonts on fontshmonts.com.url */; };
+		941402132861DF2800747C50 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941401F12861DF2800747C50 /* License.txt */; };
+		941402142861DF2800747C50 /* 210279.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 941401F22861DF2800747C50 /* 210279.jpg */; };
+		941402152861DF2800747C50 /* Help - Guide Document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 941401F32861DF2800747C50 /* Help - Guide Document.pdf */; };
+		941402162861DF2800747C50 /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 941401F42861DF2800747C50 /* Gilroy-Heavy.ttf */; };
+		941402172861DF2800747C50 /* 210280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 941401F52861DF2800747C50 /* 210280.jpg */; };
+		9414021B2861EF1700747C50 /* OnboardingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9414021A2861EF1700747C50 /* OnboardingImageView.swift */; };
+		9414021D2861EF7300747C50 /* OnboardingDescripton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9414021C2861EF7300747C50 /* OnboardingDescripton.swift */; };
+		941402212861FF9100747C50 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941402202861FF9100747C50 /* PageViewController.swift */; };
+		941402232862019E00747C50 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941402222862019E00747C50 /* Onboarding.swift */; };
+		943C77F9286096ED00705B02 /* EatmeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943C77F8286096ED00705B02 /* EatmeApp.swift */; };
+		943C77FB286096ED00705B02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943C77FA286096ED00705B02 /* ContentView.swift */; };
+		943C77FD286096F000705B02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943C77FC286096F000705B02 /* Assets.xcassets */; };
+		943C7800286096F000705B02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943C77FF286096F000705B02 /* Preview Assets.xcassets */; };
+		943C780A286096F100705B02 /* EatmeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943C7809286096F100705B02 /* EatmeTests.swift */; };
+		943C7814286096F100705B02 /* EatmeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943C7813286096F100705B02 /* EatmeUITests.swift */; };
+		943C7816286096F100705B02 /* EatmeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943C7815286096F100705B02 /* EatmeUITestsLaunchTests.swift */; };
+		943C7824286098F300705B02 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943C7823286098F300705B02 /* SplashScreenView.swift */; };
+		943C782B2860AC4C00705B02 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943C782A2860AC4C00705B02 /* OnboardingPage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		943C7806286096F100705B02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943C77ED286096ED00705B02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943C77F4286096ED00705B02;
+			remoteInfo = Eatme;
+		};
+		943C7810286096F100705B02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943C77ED286096ED00705B02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943C77F4286096ED00705B02;
+			remoteInfo = Eatme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		941401D42861DF2800747C50 /* Gilroy-UltraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-UltraLightItalic.ttf"; sourceTree = "<group>"; };
+		941401D52861DF2800747C50 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		941401D62861DF2800747C50 /* Gilroy-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-LightItalic.ttf"; sourceTree = "<group>"; };
+		941401D72861DF2800747C50 /* Gilroy-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ThinItalic.ttf"; sourceTree = "<group>"; };
+		941401D82861DF2800747C50 /* Gilroy-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		941401D92861DF2800747C50 /* Gilroy-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-BoldItalic.ttf"; sourceTree = "<group>"; };
+		941401DA2861DF2800747C50 /* Gilroy-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		941401DB2861DF2800747C50 /* Gilroy-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-RegularItalic.ttf"; sourceTree = "<group>"; };
+		941401DC2861DF2800747C50 /* Gilroy-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-BlackItalic.ttf"; sourceTree = "<group>"; };
+		941401DD2861DF2800747C50 /* 210006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 210006.jpg; sourceTree = "<group>"; };
+		941401DE2861DF2800747C50 /* 210004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 210004.jpg; sourceTree = "<group>"; };
+		941401DF2861DF2800747C50 /* 210001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 210001.jpg; sourceTree = "<group>"; };
+		941401E02861DF2800747C50 /* 210000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 210000.jpg; sourceTree = "<group>"; };
+		941401E12861DF2800747C50 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		941401E22861DF2800747C50 /* Gilroy-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-UltraLight.ttf"; sourceTree = "<group>"; };
+		941401E32861DF2800747C50 /* 210003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 210003.jpg; sourceTree = "<group>"; };
+		941401E42861DF2800747C50 /* Gilroy-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Black.ttf"; sourceTree = "<group>"; };
+		941401E52861DF2800747C50 /* Gilroy-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.ttf"; sourceTree = "<group>"; };
+		941401E62861DF2800747C50 /* Gilroy-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-MediumItalic.ttf"; sourceTree = "<group>"; };
+		941401E72861DF2800747C50 /* 210019.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 210019.jpg; sourceTree = "<group>"; };
+		941401E82861DF2800747C50 /* Gilroy-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.ttf"; sourceTree = "<group>"; };
+		941401E92861DF2800747C50 /* Gilroy-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Thin.ttf"; sourceTree = "<group>"; };
+		941401EA2861DF2800747C50 /* 210018.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 210018.jpg; sourceTree = "<group>"; };
+		941401EB2861DF2800747C50 /* Gilroy-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		941401EC2861DF2800747C50 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		941401ED2861DF2800747C50 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		941401EE2861DF2800747C50 /* 210020.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 210020.jpg; sourceTree = "<group>"; };
+		941401EF2861DF2800747C50 /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover.jpg; sourceTree = "<group>"; };
+		941401F02861DF2800747C50 /* More Free Fonts on fontshmonts.com.url */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "More Free Fonts on fontshmonts.com.url"; sourceTree = "<group>"; };
+		941401F12861DF2800747C50 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		941401F22861DF2800747C50 /* 210279.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 210279.jpg; sourceTree = "<group>"; };
+		941401F32861DF2800747C50 /* Help - Guide Document.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Help - Guide Document.pdf"; sourceTree = "<group>"; };
+		941401F42861DF2800747C50 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
+		941401F52861DF2800747C50 /* 210280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 210280.jpg; sourceTree = "<group>"; };
+		941402182861E08B00747C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9414021A2861EF1700747C50 /* OnboardingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingImageView.swift; sourceTree = "<group>"; };
+		9414021C2861EF7300747C50 /* OnboardingDescripton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingDescripton.swift; sourceTree = "<group>"; };
+		941402202861FF9100747C50 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		941402222862019E00747C50 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		943C77F5286096ED00705B02 /* Eatme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eatme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		943C77F8286096ED00705B02 /* EatmeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatmeApp.swift; sourceTree = "<group>"; };
+		943C77FA286096ED00705B02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		943C77FC286096F000705B02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		943C77FF286096F000705B02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		943C7805286096F100705B02 /* EatmeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatmeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		943C7809286096F100705B02 /* EatmeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatmeTests.swift; sourceTree = "<group>"; };
+		943C780F286096F100705B02 /* EatmeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatmeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		943C7813286096F100705B02 /* EatmeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatmeUITests.swift; sourceTree = "<group>"; };
+		943C7815286096F100705B02 /* EatmeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatmeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		943C7823286098F300705B02 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		943C782A2860AC4C00705B02 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		943C77F2286096ED00705B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943C7802286096F100705B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943C780C286096F100705B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		941401D22861DF0B00747C50 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				941401D32861DF2800747C50 /* gilroy */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		941401D32861DF2800747C50 /* gilroy */ = {
+			isa = PBXGroup;
+			children = (
+				941401D42861DF2800747C50 /* Gilroy-UltraLightItalic.ttf */,
+				941401D52861DF2800747C50 /* Gilroy-Medium.ttf */,
+				941401D62861DF2800747C50 /* Gilroy-LightItalic.ttf */,
+				941401D72861DF2800747C50 /* Gilroy-ThinItalic.ttf */,
+				941401D82861DF2800747C50 /* Gilroy-HeavyItalic.ttf */,
+				941401D92861DF2800747C50 /* Gilroy-BoldItalic.ttf */,
+				941401DA2861DF2800747C50 /* Gilroy-SemiBoldItalic.ttf */,
+				941401DB2861DF2800747C50 /* Gilroy-RegularItalic.ttf */,
+				941401DC2861DF2800747C50 /* Gilroy-BlackItalic.ttf */,
+				941401DD2861DF2800747C50 /* 210006.jpg */,
+				941401DE2861DF2800747C50 /* 210004.jpg */,
+				941401DF2861DF2800747C50 /* 210001.jpg */,
+				941401E02861DF2800747C50 /* 210000.jpg */,
+				941401E12861DF2800747C50 /* Gilroy-Regular.ttf */,
+				941401E22861DF2800747C50 /* Gilroy-UltraLight.ttf */,
+				941401E32861DF2800747C50 /* 210003.jpg */,
+				941401E42861DF2800747C50 /* Gilroy-Black.ttf */,
+				941401E52861DF2800747C50 /* Gilroy-ExtraBold.ttf */,
+				941401E62861DF2800747C50 /* Gilroy-MediumItalic.ttf */,
+				941401E72861DF2800747C50 /* 210019.jpg */,
+				941401E82861DF2800747C50 /* Gilroy-Light.ttf */,
+				941401E92861DF2800747C50 /* Gilroy-Thin.ttf */,
+				941401EA2861DF2800747C50 /* 210018.jpg */,
+				941401EB2861DF2800747C50 /* Gilroy-ExtraBoldItalic.ttf */,
+				941401EC2861DF2800747C50 /* Gilroy-SemiBold.ttf */,
+				941401ED2861DF2800747C50 /* Gilroy-Bold.ttf */,
+				941401EE2861DF2800747C50 /* 210020.jpg */,
+				941401EF2861DF2800747C50 /* cover.jpg */,
+				941401F02861DF2800747C50 /* More Free Fonts on fontshmonts.com.url */,
+				941401F12861DF2800747C50 /* License.txt */,
+				941401F22861DF2800747C50 /* 210279.jpg */,
+				941401F32861DF2800747C50 /* Help - Guide Document.pdf */,
+				941401F42861DF2800747C50 /* Gilroy-Heavy.ttf */,
+				941401F52861DF2800747C50 /* 210280.jpg */,
+			);
+			path = gilroy;
+			sourceTree = "<group>";
+		};
+		941402192861EEE200747C50 /* Onboarding View Design */ = {
+			isa = PBXGroup;
+			children = (
+				9414021A2861EF1700747C50 /* OnboardingImageView.swift */,
+				9414021C2861EF7300747C50 /* OnboardingDescripton.swift */,
+				941402202861FF9100747C50 /* PageViewController.swift */,
+			);
+			path = "Onboarding View Design";
+			sourceTree = "<group>";
+		};
+		943C77EC286096ED00705B02 = {
+			isa = PBXGroup;
+			children = (
+				943C77F7286096ED00705B02 /* Eatme */,
+				943C7808286096F100705B02 /* EatmeTests */,
+				943C7812286096F100705B02 /* EatmeUITests */,
+				943C77F6286096ED00705B02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		943C77F6286096ED00705B02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				943C77F5286096ED00705B02 /* Eatme.app */,
+				943C7805286096F100705B02 /* EatmeTests.xctest */,
+				943C780F286096F100705B02 /* EatmeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		943C77F7286096ED00705B02 /* Eatme */ = {
+			isa = PBXGroup;
+			children = (
+				941402182861E08B00747C50 /* Info.plist */,
+				941401D22861DF0B00747C50 /* Font */,
+				943C78222860971400705B02 /* view */,
+				943C77F8286096ED00705B02 /* EatmeApp.swift */,
+				943C77FC286096F000705B02 /* Assets.xcassets */,
+				943C77FE286096F000705B02 /* Preview Content */,
+			);
+			path = Eatme;
+			sourceTree = "<group>";
+		};
+		943C77FE286096F000705B02 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				943C77FF286096F000705B02 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		943C7808286096F100705B02 /* EatmeTests */ = {
+			isa = PBXGroup;
+			children = (
+				943C7809286096F100705B02 /* EatmeTests.swift */,
+			);
+			path = EatmeTests;
+			sourceTree = "<group>";
+		};
+		943C7812286096F100705B02 /* EatmeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				943C7813286096F100705B02 /* EatmeUITests.swift */,
+				943C7815286096F100705B02 /* EatmeUITestsLaunchTests.swift */,
+			);
+			path = EatmeUITests;
+			sourceTree = "<group>";
+		};
+		943C78222860971400705B02 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				943C782528609D1D00705B02 /* On Boarding */,
+				943C77FA286096ED00705B02 /* ContentView.swift */,
+				943C7823286098F300705B02 /* SplashScreenView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		943C782528609D1D00705B02 /* On Boarding */ = {
+			isa = PBXGroup;
+			children = (
+				941402192861EEE200747C50 /* Onboarding View Design */,
+				943C782A2860AC4C00705B02 /* OnboardingPage.swift */,
+				941402222862019E00747C50 /* Onboarding.swift */,
+			);
+			path = "On Boarding";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		943C77F4286096ED00705B02 /* Eatme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943C7819286096F100705B02 /* Build configuration list for PBXNativeTarget "Eatme" */;
+			buildPhases = (
+				943C77F1286096ED00705B02 /* Sources */,
+				943C77F2286096ED00705B02 /* Frameworks */,
+				943C77F3286096ED00705B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eatme;
+			productName = Eatme;
+			productReference = 943C77F5286096ED00705B02 /* Eatme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		943C7804286096F100705B02 /* EatmeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943C781C286096F100705B02 /* Build configuration list for PBXNativeTarget "EatmeTests" */;
+			buildPhases = (
+				943C7801286096F100705B02 /* Sources */,
+				943C7802286096F100705B02 /* Frameworks */,
+				943C7803286096F100705B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				943C7807286096F100705B02 /* PBXTargetDependency */,
+			);
+			name = EatmeTests;
+			productName = EatmeTests;
+			productReference = 943C7805286096F100705B02 /* EatmeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		943C780E286096F100705B02 /* EatmeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943C781F286096F100705B02 /* Build configuration list for PBXNativeTarget "EatmeUITests" */;
+			buildPhases = (
+				943C780B286096F100705B02 /* Sources */,
+				943C780C286096F100705B02 /* Frameworks */,
+				943C780D286096F100705B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				943C7811286096F100705B02 /* PBXTargetDependency */,
+			);
+			name = EatmeUITests;
+			productName = EatmeUITests;
+			productReference = 943C780F286096F100705B02 /* EatmeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		943C77ED286096ED00705B02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					943C77F4286096ED00705B02 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					943C7804286096F100705B02 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 943C77F4286096ED00705B02;
+					};
+					943C780E286096F100705B02 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 943C77F4286096ED00705B02;
+					};
+				};
+			};
+			buildConfigurationList = 943C77F0286096ED00705B02 /* Build configuration list for PBXProject "Eatme" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 943C77EC286096ED00705B02;
+			productRefGroup = 943C77F6286096ED00705B02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				943C77F4286096ED00705B02 /* Eatme */,
+				943C7804286096F100705B02 /* EatmeTests */,
+				943C780E286096F100705B02 /* EatmeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		943C77F3286096ED00705B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9414020D2861DF2800747C50 /* Gilroy-ExtraBoldItalic.ttf in Resources */,
+				941401FE2861DF2800747C50 /* Gilroy-BlackItalic.ttf in Resources */,
+				941402052861DF2800747C50 /* 210003.jpg in Resources */,
+				9414020F2861DF2800747C50 /* Gilroy-Bold.ttf in Resources */,
+				941402082861DF2800747C50 /* Gilroy-MediumItalic.ttf in Resources */,
+				941402022861DF2800747C50 /* 210000.jpg in Resources */,
+				941402172861DF2800747C50 /* 210280.jpg in Resources */,
+				943C7800286096F000705B02 /* Preview Assets.xcassets in Resources */,
+				941402032861DF2800747C50 /* Gilroy-Regular.ttf in Resources */,
+				9414020A2861DF2800747C50 /* Gilroy-Light.ttf in Resources */,
+				941402042861DF2800747C50 /* Gilroy-UltraLight.ttf in Resources */,
+				941402002861DF2800747C50 /* 210004.jpg in Resources */,
+				9414020B2861DF2800747C50 /* Gilroy-Thin.ttf in Resources */,
+				941402152861DF2800747C50 /* Help - Guide Document.pdf in Resources */,
+				941401F82861DF2800747C50 /* Gilroy-LightItalic.ttf in Resources */,
+				941401F72861DF2800747C50 /* Gilroy-Medium.ttf in Resources */,
+				941401FD2861DF2800747C50 /* Gilroy-RegularItalic.ttf in Resources */,
+				941401FB2861DF2800747C50 /* Gilroy-BoldItalic.ttf in Resources */,
+				941402012861DF2800747C50 /* 210001.jpg in Resources */,
+				941402072861DF2800747C50 /* Gilroy-ExtraBold.ttf in Resources */,
+				9414020C2861DF2800747C50 /* 210018.jpg in Resources */,
+				941402102861DF2800747C50 /* 210020.jpg in Resources */,
+				943C77FD286096F000705B02 /* Assets.xcassets in Resources */,
+				9414020E2861DF2800747C50 /* Gilroy-SemiBold.ttf in Resources */,
+				941401F62861DF2800747C50 /* Gilroy-UltraLightItalic.ttf in Resources */,
+				941402142861DF2800747C50 /* 210279.jpg in Resources */,
+				941401FA2861DF2800747C50 /* Gilroy-HeavyItalic.ttf in Resources */,
+				941401FC2861DF2800747C50 /* Gilroy-SemiBoldItalic.ttf in Resources */,
+				941402062861DF2800747C50 /* Gilroy-Black.ttf in Resources */,
+				941402122861DF2800747C50 /* More Free Fonts on fontshmonts.com.url in Resources */,
+				941401FF2861DF2800747C50 /* 210006.jpg in Resources */,
+				941402132861DF2800747C50 /* License.txt in Resources */,
+				941402112861DF2800747C50 /* cover.jpg in Resources */,
+				941402092861DF2800747C50 /* 210019.jpg in Resources */,
+				941401F92861DF2800747C50 /* Gilroy-ThinItalic.ttf in Resources */,
+				941402162861DF2800747C50 /* Gilroy-Heavy.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943C7803286096F100705B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943C780D286096F100705B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		943C77F1286096ED00705B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943C77FB286096ED00705B02 /* ContentView.swift in Sources */,
+				941402212861FF9100747C50 /* PageViewController.swift in Sources */,
+				9414021D2861EF7300747C50 /* OnboardingDescripton.swift in Sources */,
+				943C77F9286096ED00705B02 /* EatmeApp.swift in Sources */,
+				943C7824286098F300705B02 /* SplashScreenView.swift in Sources */,
+				9414021B2861EF1700747C50 /* OnboardingImageView.swift in Sources */,
+				941402232862019E00747C50 /* Onboarding.swift in Sources */,
+				943C782B2860AC4C00705B02 /* OnboardingPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943C7801286096F100705B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943C780A286096F100705B02 /* EatmeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943C780B286096F100705B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943C7814286096F100705B02 /* EatmeUITests.swift in Sources */,
+				943C7816286096F100705B02 /* EatmeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		943C7807286096F100705B02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943C77F4286096ED00705B02 /* Eatme */;
+			targetProxy = 943C7806286096F100705B02 /* PBXContainerItemProxy */;
+		};
+		943C7811286096F100705B02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943C77F4286096ED00705B02 /* Eatme */;
+			targetProxy = 943C7810286096F100705B02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		943C7817286096F100705B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		943C7818286096F100705B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		943C781A286096F100705B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Eatme/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eatme/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eatme.Eatme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		943C781B286096F100705B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Eatme/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eatme/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eatme.Eatme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		943C781D286096F100705B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eatme.EatmeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eatme.app/Eatme";
+			};
+			name = Debug;
+		};
+		943C781E286096F100705B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eatme.EatmeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eatme.app/Eatme";
+			};
+			name = Release;
+		};
+		943C7820286096F100705B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eatme.EatmeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eatme;
+			};
+			name = Debug;
+		};
+		943C7821286096F100705B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eatme.EatmeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eatme;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		943C77F0286096ED00705B02 /* Build configuration list for PBXProject "Eatme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943C7817286096F100705B02 /* Debug */,
+				943C7818286096F100705B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943C7819286096F100705B02 /* Build configuration list for PBXNativeTarget "Eatme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943C781A286096F100705B02 /* Debug */,
+				943C781B286096F100705B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943C781C286096F100705B02 /* Build configuration list for PBXNativeTarget "EatmeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943C781D286096F100705B02 /* Debug */,
+				943C781E286096F100705B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943C781F286096F100705B02 /* Build configuration list for PBXNativeTarget "EatmeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943C7820286096F100705B02 /* Debug */,
+				943C7821286096F100705B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 943C77ED286096ED00705B02 /* Project object */;
+}

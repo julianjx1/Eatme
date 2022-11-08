@@ -21,20 +21,20 @@ struct OnboardingPage: View {
     
     var body: some View {
     
-        ZStack{
-            Color.white.ignoresSafeArea()
+  
             
             VStack(spacing: spacing) {
                 
                 OnboardingImageView(backgroundImage: backgroundImage, backgroundImageHeight: backgroundImageeHeight, boardingImage: boardingImage, boardingImageBottom: boardingImageBottom, boardingImageHorizontal: boardingImageHorizontal)
                 
+                Spacer(minLength: 56)
                 OnboardingDescripton(title: title, description: description)
-                Spacer()
+               
                
             }
             
             
-        }
+        
     }
 }
 

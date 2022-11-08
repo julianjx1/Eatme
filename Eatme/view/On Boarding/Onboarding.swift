@@ -10,7 +10,42 @@ import SwiftUI
 struct Onboarding<Page: View>: View {
     var pages: [Page]
     var body: some View {
-        PageViewController(pages: pages)
+            VStack{
+                PageViewController(pages: pages)
+                Spacer(minLength: 40)
+                HStack(spacing: 10) {
+                    Rectangle()
+                        .fill(Color("Deep Orange"))
+                        .frame(width: 30)
+                        .cornerRadius(4)
+                    Rectangle()
+                        .fill(Color("Deep Orange"))
+                        .frame(width: 10)
+                        .cornerRadius(4)
+                        .opacity(0.40)
+                    Rectangle()
+                        .fill(Color("Deep Orange"))
+                        .frame(width: 10)
+                        .cornerRadius(4)
+                        .opacity(0.40)
+                    
+                }.frame(height: 8)
+                
+                Spacer(minLength: 65)
+                HStack(spacing: 128, content:{
+                    Button("Skip") {
+                        print("Skip")
+                    }.foregroundColor(Color("Light Ash"))
+                    Button("Next") {
+                        print("Next")
+                    }.frame(width: 168, height: 56, alignment: .center)
+                        .foregroundColor(.white)
+                        .background(Color("Deep Orange"))
+                        .cornerRadius(8)
+                })
+            }
+        
+        
     }
 }
 

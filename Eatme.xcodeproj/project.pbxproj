@@ -54,6 +54,7 @@
 		943C7816286096F100705B02 /* EatmeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943C7815286096F100705B02 /* EatmeUITestsLaunchTests.swift */; };
 		943C7824286098F300705B02 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943C7823286098F300705B02 /* SplashScreenView.swift */; };
 		943C782B2860AC4C00705B02 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943C782A2860AC4C00705B02 /* OnboardingPage.swift */; };
+		B93114CF2917F71800589927 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93114CE2917F71800589927 /* AuthenticationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +126,7 @@
 		943C7815286096F100705B02 /* EatmeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatmeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		943C7823286098F300705B02 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		943C782A2860AC4C00705B02 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		B93114CE2917F71800589927 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +277,7 @@
 				943C782528609D1D00705B02 /* On Boarding */,
 				943C77FA286096ED00705B02 /* ContentView.swift */,
 				943C7823286098F300705B02 /* SplashScreenView.swift */,
+				B93114CE2917F71800589927 /* AuthenticationView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 				9414021D2861EF7300747C50 /* OnboardingDescripton.swift in Sources */,
 				943C77F9286096ED00705B02 /* EatmeApp.swift in Sources */,
 				943C7824286098F300705B02 /* SplashScreenView.swift in Sources */,
+				B93114CF2917F71800589927 /* AuthenticationView.swift in Sources */,
 				9414021B2861EF1700747C50 /* OnboardingImageView.swift in Sources */,
 				941402232862019E00747C50 /* Onboarding.swift in Sources */,
 				943C782B2860AC4C00705B02 /* OnboardingPage.swift in Sources */,
